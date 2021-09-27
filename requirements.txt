@@ -74,6 +74,7 @@ future==0.18.2
 gevent @ file:///C:/ci/gevent_1616773090559/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci/greenlet_1611958565931/work
+gunicorn==20.1.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
