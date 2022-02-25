@@ -12,9 +12,6 @@ from flask_restful import Api, Resource, reqparse
 app = Flask(__name__)
 api = Api(app)
 
-#Azure Credentials 
-endpoint = "https://version-0.cognitiveservices.azure.com/"
-key = "9ace77082ed544689e78c7d59db75c1a"
 
 #Initialize Form Recognizer Client
 form_recognizer_client = FormRecognizerClient(endpoint, AzureKeyCredential(key))
